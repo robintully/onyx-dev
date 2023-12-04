@@ -14,18 +14,18 @@ setup-flatpaks:
 # launch firefox with tabs to start day
 start-day:
     flatpak run org.mozilla.firefox -url \
-          https://app.sunsama.com/ \
           https://todoist.com/app/today \
           https://app.shortwave.com/ \
+          https://mail.google.com/mail/u/3/#inbox \
           https://account.proton.me/mail \
-          https://app.ynab.com/
+          https://app.ynab.com/ &
 
 # launch chrome with tabs to start work day
 start-work:
     flatpak run com.google.Chrome \
           https://mail.google.com/mail/u/0/#inbox \
           https://calendar.google.com/calendar/u/0/r?pli=1 \
-          https://app.asana.com/0/1201615314190742/list
+          https://app.asana.com/0/1201615314190742/list &
 
 # install devbox
 devbox-me-up:
