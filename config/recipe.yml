@@ -49,6 +49,9 @@ modules:
       - Slack: com.slack.Slack
       - Chrome: com.google.Chrome
       - wezterm: org.wezfurlong.wezterm
+      - Proton Bridge: ch.protonmail.protonmail-bridge
+      - Floorp: one.ablaze.floorp
+      - Mailspring: com.getmailspring.Mailspring
       
 
   - type: script
