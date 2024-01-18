@@ -53,6 +53,7 @@ modules:
       - Floorp: one.ablaze.floorp
       - Mailspring: com.getmailspring.Mailspring
       - Bitwarden: com.bitwarden.desktop
+      - Todoist: com.todoist.Todoist
       
 
   - type: script
