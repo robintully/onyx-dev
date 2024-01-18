@@ -52,6 +52,7 @@ modules:
       - Proton Bridge: ch.protonmail.protonmail-bridge
       - Floorp: one.ablaze.floorp
       - Mailspring: com.getmailspring.Mailspring
+      - Bitwarden: com.bitwarden.desktop
       
 
   - type: script
