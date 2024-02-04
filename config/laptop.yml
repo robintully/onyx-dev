@@ -21,22 +21,22 @@ modules:
                   # config directory on ostree. Read more in the files module's README
 
   - from-file: common-packages.yml
-  - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
-                #  will be installed and set up
-    custom-flatpaks: # this section is optional
-      # - Celluloid: io.github.celluloid_player.Celluloid
-      # - Krita: org.kde.krita
-      - ExtensionManager: com.mattjakeman.ExtensionManager
-      - LibreOffice: org.libreoffice.LibreOffice
-      - FontDownloader: org.gustavoperedo.FontDownloader
-      - Flatseal: com.github.tchx84.Flatseal
-      - Celluloid: io.github.celluloid_player.Celluloid
-      - Obsidian: md.obsidian.Obsidian
-      - Studio: io.beekeeperstudio.Studio
-      - Vorta: com.borgbase.Vorta
-      - Slack: com.slack.Slack
-      - Chrome: com.google.Chrome
-      - wezterm: org.wezfurlong.wezterm
+  # - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
+  #               #  will be installed and set up
+  #   custom-flatpaks: # this section is optional
+  #     # - Celluloid: io.github.celluloid_player.Celluloid
+  #     # - Krita: org.kde.krita
+  #     - ExtensionManager: com.mattjakeman.ExtensionManager
+  #     - LibreOffice: org.libreoffice.LibreOffice
+  #     - FontDownloader: org.gustavoperedo.FontDownloader
+  #     - Flatseal: com.github.tchx84.Flatseal
+  #     - Celluloid: io.github.celluloid_player.Celluloid
+  #     - Obsidian: md.obsidian.Obsidian
+  #     - Studio: io.beekeeperstudio.Studio
+  #     - Vorta: com.borgbase.Vorta
+  #     - Slack: com.slack.Slack
+  #     - Chrome: com.google.Chrome
+  #     - wezterm: org.wezfurlong.wezterm
       
 
   - type: script
