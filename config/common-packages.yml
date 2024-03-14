@@ -21,7 +21,6 @@ install:
   - budgie-extras
   - screen
   - direnv
-  - moby-engine
   - langpacks-en
 remove:
   - firefox # default firefox removed in favor of flatpak
