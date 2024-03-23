@@ -22,6 +22,7 @@ install:
   - screen
   - direnv
   - langpacks-en
+  - $(curl -s "https://api.github.com/repos/Foundry376/Mailspring/releases/latest" | grep -oP '"browser_download_url": "\K(.*\.rpm)')
 remove:
   - firefox # default firefox removed in favor of flatpak
   - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
